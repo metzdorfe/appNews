@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/cinza_claro_background">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btn_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noticias"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/azul_principal" />
+
+    <Button
+        android:id="@+id/btn_read_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ler depois"
+        android:padding="12dp"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/preto_suave_texto" />
+
+</LinearLayout>

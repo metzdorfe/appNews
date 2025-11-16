@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinza_claro_background">#F5F5F5</color>
+    <color name="branco_card">#FFFFFF</color>
+
+    <color name="preto_suave_texto">#222222</color>
+    <color name="cinza_texto_secundario">#777777</color>
+
+    <color name="azul_principal">#4A90E2</color>
+    <color name="cinza_escuro_botao">#3C3C3C</color>
+</resources>
