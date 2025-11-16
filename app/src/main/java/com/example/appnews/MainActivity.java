@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        // Se quiser, depois configura esse também
+        btnReadMore.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, FavoritesActivity.class);
+            startActivity(intent);
+        });
     }
 }
