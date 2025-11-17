@@ -36,7 +36,7 @@ public class DetailsActivity extends AppCompatActivity {
         text_source = findViewById(R.id.text_desc_source);
         text_title = findViewById(R.id.text_desc_title);
         img_news = findViewById(R.id.img_news);
-        btnSave = findViewById(R.id.btn_save); // ⬅ precisa existir no XML
+        btnSave = findViewById(R.id.btn_save);
 
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
         Date date = null;
